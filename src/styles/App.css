@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: rgb(39, 35, 35);
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  color: white;
+  background: rgba(5, 5, 5, 0.5);
+  padding: 5px 10px; 
+  border-radius: 100px; 
+  display: inline-block; 
+}
+
+.btn-search {
+  background-color: red;
+}
+
+.btn-custom {
+  background-color: rgb(238, 203, 87);
+}
